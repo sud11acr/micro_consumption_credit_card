@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "562b031e-e299-460a-8612-02636e06958a",
+		"name": "micro_consumption_credit_card",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10392878"
+	},
+	"item": [
+		{
+			"name": "localhost:9086/consumptionCreditCard/create/652484c0f833d70fd782874b",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idCreditCard\":\"652484c0f833d70fd782874b\",\r\n    \"consumptionAmount\": 5000,\r\n    \"consumptionDate\":\"2023-10-09T10:00:00Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9086/consumptionCreditCard/create/652484c0f833d70fd782874b",
+					"host": [
+						"localhost"
+					],
+					"port": "9086",
+					"path": [
+						"consumptionCreditCard",
+						"create",
+						"652484c0f833d70fd782874b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
